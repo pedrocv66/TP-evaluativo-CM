@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "primer-proyecto24": {
+    "tp-evaluativo": {
       "projectType": "application",
       "schematics": {},
       "root": "",
