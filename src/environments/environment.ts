@@ -1,14 +1,14 @@
 // CONFIGURACIÓN DE FIREBASE EN NUESTRA APLICACIÓN WEB
-export const environment = {
+export const environment ={ 
     production: false,
 
-    // sacamos la palabra "const" y el ";" final, cambiamos el "=" por ":"
     firebaseConfig: {
-        apiKey: "AIzaSyCAnDyvryrGdPgbm3vVWjkN306-kmor6Pk",
-        authDomain: "programacion0-2024.firebaseapp.com",
-        projectId: "programacion0-2024",
-        storageBucket: "programacion0-2024.appspot.com",
-        messagingSenderId: "676345463094",
-        appId: "1:676345463094:web:25308e0413c2823005f397"
-    }
+        apiKey: "AIzaSyCZq9AoUDaLb0LlGGaBY_hGAajrXSPl9J4",
+        authDomain: "prog02024-5c70a.firebaseapp.com",
+        projectId: "prog02024-5c70a",
+        storageBucket: "prog02024-5c70a.appspot.com",
+        messagingSenderId: "124889963345",
+        appId: "1:124889963345:web:3b8c0a6b326f0c92a89170",
+        measurementId: "G-ZNJJ32NL2C"
+      }
 }

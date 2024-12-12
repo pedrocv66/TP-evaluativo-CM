@@ -2,13 +2,12 @@
 <table class="table">
     <thead>
         <tr>
-            <th scope="col">#</th>
             <th scope="col">Imagen</th>
             <th scope="col">Nombre</th>
             <th scope="col">Precio</th>
             <th scope="col">Descripción</th>
             <th scope="col">Categoría</th>
-            <th scope="col">Acciones</th>
+            
         </tr>
     </thead>
 
@@ -60,14 +59,14 @@
             <div [formGroup]="producto" class="modal-body">
                 <div class="mb-3">
                     <label class="form-label">Ingrese el nombre del producto:</label>
-                    <input class="form-control" type="text" formControlName="nombre"
-                        placeholder="Ej.: Medias de chanchitos">
+                <input class="form-control" type="text" formControlName="nombre"
+                        placeholder="Ej.: potencia taramps">
                 </div>
 
                 <div class="mb-3">
                     <label class="form-label">Ingrese una descripción:</label>
                     <input class="form-control" type="text" formControlName="descripcion"
-                        placeholder="Ej.: Medias de chanchitos de algodón premium">
+                        placeholder="Ej.: taramps 400.4">
                 </div>
 
                 <div class="mb-3">
@@ -79,9 +78,9 @@
                     <label class="form-label">Selecciona una categoría:</label>
                     <select class="form-control" formControlName="categoria" class="form-select">
                         <option selected>Elija una opción</option>
-                        <option value="alimentacion">Alimentación</option>
-                        <option value="indumentaria">Indumentaria</option>
-                        <option value="juguete">Juguete</option>
+                        <option value="alimentacion">subwoofer</option>
+                        <option value="indumentaria">componentes</option>
+                        <option value="juguete">potencia</option>
                     </select>
                 </div>
 
@@ -99,9 +98,9 @@
                 </div>
 
                 <div class="mb-3">
-                    <label class="form-label">Ingrese texto alternativo de la imagen:</label>
+                    <label class="form-label">Ingrese una descripcion de la imagen:</label>
                     <input class="form-control" type="text" formControlName="alt"
-                        placeholder="Ej.: Medias de chanchito">
+                        placeholder="Ej.:nuevo/a o usado/a">
                 </div>
             </div>
 
@@ -148,9 +147,9 @@
                     <label class="form-label">Selecciona una categoría:</label>
                     <select class="form-control" formControlName="categoria" class="form-select">
                         <option selected disabled>Elija una opción</option>
-                        <option value="alimentacion">Alimentación</option>
-                        <option value="indumentaria">Indumentaria</option>
-                        <option value="juguete">Juguete</option>
+                        <option value="alimentacion">subwoofer</option>
+                        <option value="indumentaria">componente</option>
+                        <option value="juguete">potencia</option>
                     </select>
                 </div>
 

@@ -9,18 +9,36 @@ h1{
 }
 
 .contenido{
-    width: 200px;
+    width: 300px;
     display: inline-block;
     padding: 15px;
     border-radius: 8px;
     margin: 10px;
+    
+    
 }
 
 p{
     padding: 5px;
+    color: white;
+
 }
 
-@media (min-width: 300px) and (max-width: 700px){
+/* Encabezado y pie de tarjeta */
+mat-card-header, mat-card-actions{
+    background-color: rgb(255, 255, 255);
+}
+
+/* Título */
+mat-card-title {
+    color: rgb(0, 0, 0);
+}
+
+mat-icon{
+    color:rgb(255, 0, 0);
+}
+
+@media (min-width: 300px) and (max-width: 700px)  {
     
 }
 

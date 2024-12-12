@@ -1,0 +1,47 @@
+/* Estilos básicos para el footer */
+footer {
+    background-color: #3a3a3a; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 20px 0; /* Espaciado interno */
+    text-align: center; /* Centrado del texto */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.content{
+    color: #ffffff;
+    background-color: #3a3a3a;
+    
+}
+p{
+    color: #ffffff;
+}
+/* Contenedor interno para el footer */
+.footer-container {
+    background-color: rgb(15, 111, 255);
+    max-width: 1200px;
+    margin: 0 auto; /* Centrado horizontal */
+    padding: 0 20px; /* Espaciado a los lados */
+}
+
+
+/* Estilos para los enlaces sociales */
+ul.social-links {
+    list-style: none; /* Quitar viñetas */
+    padding: 0;
+}
+
+ul.social-links li {
+    display: inline-block; /* Mostrar los enlaces en línea */
+    margin: 0 10px; /* Espaciado entre los elementos */
+}
+
+ul.social-links li a {
+    color: hsl(0, 0%, 100%); /* Enlaces blancos */
+    text-decoration: none; /* Quitar subrayado */
+    font-size: 18px;
+}
+
+ul.social-links li a:hover {
+    color: #ff6600; /* Cambio de color al pasar el ratón */
+}
