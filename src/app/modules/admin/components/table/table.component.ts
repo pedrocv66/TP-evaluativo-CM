@@ -59,8 +59,8 @@ export class TableComponent {
       await this.servicioCrud.subirImagen(this.nombreImagen, this.imagen, "productos")
         .then(resp => {
           // encapsulamos respuesta y envíamos la información obtenida
-          this.servicioCrud.obtenerUrlImagen(resp)
-            .then(url => {
+          this.servicioCrud.obtenerUrlImagen(resp) 
+          .then(url => {
               // ahora método crearProducto recibe datos del formulario y URL creada
               this.servicioCrud.crearProducto(nuevoProducto, url)
                 .then(producto => {
