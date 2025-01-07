@@ -1,0 +1,9 @@
+.carousel{
+    
+    display: flex;
+    justify-content: center;
+}
+.imagen{
+   
+    justify-content: center;
+}

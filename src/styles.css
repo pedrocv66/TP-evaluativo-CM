@@ -3,6 +3,7 @@
 /*Estilos Para Modo Oscuro*/
 body{
     transition: all 1.5 ease;
+    
 }
 #toggle{
     display: none;

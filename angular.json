@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/primer-proyecto24",
+            "outputPath": "dist/tp-evaluativo",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "primer-proyecto24:build:production"
+              "browserTarget": "tp-evaluativo:build:production"
             },
             "development": {
-              "browserTarget": "primer-proyecto24:build:development"
+              "browserTarget": "tp-evaluativo:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "primer-proyecto24:build"
+            "browserTarget": "tp-evaluativo:build"
           }
         },
         "test": {

@@ -27,15 +27,15 @@ export class CarruselComponent {
       this.productosCarrusel.push(producto);
 
       Swal.fire({
-        title: '¡Eso chaval!',
-        text: 'Ha añadido el producto con exito',
+        title: '¡Muy bien!',
+        text: 'se añadio el producto con exito',
         icon: 'info'
       })
     }
     catch (error) {
       Swal.fire({
-        title: '¡Oh no!',
-        text: 'Ha ocurrido un error\n'+error,
+        title: '¡Ohh noo!',
+        text: 'surgio un error\n'+error,
         icon: 'error'
       })
     }

@@ -12,6 +12,7 @@ import { CardComponent } from './components/card/card.component';
 // COMPONENTES DE MATERIAL
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,15 @@ import {MatCardModule} from '@angular/material/card';
     CommonModule,
     InicioRoutingModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatIconModule,
+  ],
+  exports: [
+    InicioComponent,
+    CardComponent,
+    MatButtonModule,
+    MatCardModule,
+    MatIconModule,
   ]
 })
 export class InicioModule { }

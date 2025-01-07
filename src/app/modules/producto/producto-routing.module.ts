@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ProductoComponent } from './pages/producto/producto.component';
 import { AlimentacionComponent } from './pages/alimentacion/alimentacion.component';
 import { IndumentariaComponent } from './pages/indumentaria/indumentaria.component';
+
 import { JugueteComponent } from './pages/juguete/juguete.component';
 
 const routes: Routes = [
